@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>模拟电脑QQ聊天</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .message {
+      margin-bottom: 10px;
+      clear: both;
+      overflow: auto;
+    }
+    
+    .sent .avatar {
+      float: right;
+      margin-left: 10px;
+    }
+    
+    .received .avatar {
+      float: left;
+      margin-right: 10px;
+    }
+    
+    .avatar img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+    }
+
+    .message-main {
+      width: 508px;
+      margin: auto 46px;
+      overflow: auto;
+    }
+
+    .message-name {
+      font-size: small;
+      color: grey;
+    }
+
+    .sent .message-name {
+      text-align: right;
+    }
+
+    .received .message-name {
+      text-align: left;
+    }
+
+    .message-content {
+      max-width: calc(508px - 1.5em);
+      border-radius: 5px;
+      margin-top: 5px;
+      padding: 0.5em 0.75em;
+      line-height: 1.72em;
+    }
+    
+    .sent .message-content {
+      color: white;
+      background-color: #12b7f5;
+      float: right;
+    }
+    
+    .received .message-content {
+      color: black;
+      background-color: #e5e5e5;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="message sent">
+      <div class="avatar">
+        <img src="./QQ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】QQ
+        </div>
+        <div class="message-content">
+          你好
+        </div>
+      </div>
+    </div>
+    <div class="message received">
+      <div class="avatar">
+        <img src="./σσ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】σσ
+        </div>
+        <div class="message-content">
+          我好
+        </div>
+      </div>
+    </div>
+    <div class="message sent">
+      <div class="avatar">
+        <img src="./QQ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】QQ
+        </div>
+        <div class="message-content">
+          我更好
+        </div>
+      </div>
+    </div>
+    <div class="message received">
+      <div class="avatar">
+        <img src="./σσ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】σσ
+        </div>
+        <div class="message-content">
+          你不好
+        </div>
+      </div>
+    </div>
+    <div class="message sent">
+      <div class="avatar">
+        <img src="./QQ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】QQ
+        </div>
+        <div class="message-content">
+          子非我，安知我之好不好？
+        </div>
+      </div>
+    </div>
+    <div class="message received">
+      <div class="avatar">
+        <img src="./σσ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】σσ
+        </div>
+        <div class="message-content">
+          子非我，安知我不知子之好不好？
+        </div>
+      </div>
+    </div>
+    <div class="message sent">
+      <div class="avatar">
+        <img src="./QQ.png">
+      </div>
+      <div class="message-main">
+        <div class="message-name">
+          【管理员】QQ
+        </div>
+        <div class="message-content">
+          我非子，故不知子矣。子非我，子之不知我之好不好，诚矣！
+        </div>
+      </div>
+    </div>
+    <!-- 在此添加更多的聊天消息 -->
+  </div>
+</body>
+</html>
